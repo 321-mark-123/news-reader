@@ -47,7 +47,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 16px;
   overflow: hidden;
 }
 
@@ -112,8 +112,8 @@ body {
 /* Article Card */
 .article-card {
   width: 100%;
-  max-width: 800px;
-  height: 80vh; /* Fixed height for consistency */
+  max-width: none;
+  height: 100%; /* Fill the main-content area (which has padding) */
   border-radius: 12px;
   overflow: hidden;
   position: relative;
