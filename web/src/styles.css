@@ -152,8 +152,8 @@ body {
   color: #ccc;
   margin-bottom: 1.5rem;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  box-orient: vertical;
   overflow: hidden;
 }
 
